@@ -33,31 +33,6 @@ Bronchitis | Persistent cough with yellow or green mucus, chest tightness, wheez
 
 ---
 
-## 🧪 How to Use
-
-```python
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
-
-# Load model and tokenizer
-tokenizer = GPT2Tokenizer.from_pretrained("swapnilbanduke/Medical_Symtoms")
-model = GPT2LMHeadModel.from_pretrained("swapnilbanduke/Medical_Symtoms")
-
-# Prompt
-input_text = "Diabetes"
-input_ids = tokenizer.encode(input_text, return_tensors="pt")
-
-# Generate output
-output = model.generate(
-    input_ids,
-    max_length=50,
-    do_sample=True,
-    top_k=50,
-    top_p=0.95,
-    temperature=0.7
-)
-
-# Decode and print
-print(tokenizer.decode(output[0], skip_special_tokens=True))
 
 📦 Medical_Symtoms
 ├── config.json
