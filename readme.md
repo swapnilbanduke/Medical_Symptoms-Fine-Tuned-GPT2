@@ -34,17 +34,12 @@ Bronchitis | Persistent cough with yellow or green mucus, chest tightness, wheez
 ---
 
 
-📦 Medical_Symtoms
-├── config.json
-├── model_weights.bin
-├── tokenizer_config.json
-├── special_tokens_map.json
-├── merges.txt
-├── vocab.json
 
-@model{swapnil_medical_symptoms_2025,
-  author       = {Swapnil Banduke},
-  title        = {Medical_Symptoms - Fine-tuned GPT2 for Medical Symptom Generation},
-  year         = 2025,
-  url          = {https://huggingface.co/swapnilbanduke/Medical_Symtoms}
-}
+---
+
+## 📬 Contact
+
+Have feedback or want to collaborate?  
+Reach out to me on [LinkedIn](https://www.linkedin.com/in/swapnilbanduke/) or email: swapnilbanduke10@gmail.com
+
+---
